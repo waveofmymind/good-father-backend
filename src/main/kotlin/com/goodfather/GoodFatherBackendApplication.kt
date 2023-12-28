@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class GoodFatherBackendApplication
+class Application
 
 fun main(args: Array<String>) {
-    runApplication<GoodFatherBackendApplication>(*args)
+    runApplication<Application>(*args)
 }
